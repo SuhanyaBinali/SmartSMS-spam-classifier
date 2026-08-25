@@ -19,7 +19,39 @@ Users can enter an SMS message through the Streamlit web interface and receive a
 - 📱 **Example Messages** — Provides sample spam and legitimate messages for quick testing.
 - 📊 **Model Performance Metrics** — Displays the model's accuracy, precision, recall, and F1 score.
 
+## 🖥️ Application Interface
 
+SmartSMS provides an interactive Streamlit web interface for entering SMS messages, testing example messages, viewing model performance, and receiving spam or legitimate (ham) predictions.
+
+### 🏠 SmartSMS Home Interface
+
+The main interface introduces the SmartSMS application and provides an input area where users can enter an SMS message and analyze it.
+
+![SmartSMS Home Interface](screenshots/Interface%201.png)
+
+### 🧪 Example Messages and Model Performance
+
+The interface provides example messages for quick testing and displays the performance metrics of the trained machine learning model.
+
+![Example Messages and Model Performance](screenshots/Interface%202.png)
+
+### ⚙️ How SmartSMS Works
+
+This section explains the SmartSMS workflow and shows the remaining part of the application's interface.
+
+![How SmartSMS Works](screenshots/Interface%203.png)
+
+### 🚨 Spam Message Detection
+
+When a spam message is analyzed, SmartSMS displays the prediction result along with the model's decision score.
+
+![Spam Message Detection](screenshots/Interface%204.png)
+
+### ✅ Legitimate Message Detection
+
+When a legitimate (ham) message is analyzed, SmartSMS displays the legitimate-message prediction together with the model's decision score.
+
+![Legitimate Message Detection](screenshots/Interface%205.png)
 
 
 ### 🧠 Machine Learning Approach
