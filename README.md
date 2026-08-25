@@ -7,6 +7,20 @@ The application uses **Natural Language Processing (NLP)** techniques to preproc
 Users can enter an SMS message through the Streamlit web interface and receive an instant classification result along with the model's decision score.
 
 
+## 📌 Project Overview
+
+SmartSMS is a machine learning-based SMS spam detection system.
+
+The application accepts an SMS message from the user, processes the text using Natural Language Processing techniques, transforms the message into numerical features using a trained TF-IDF vectorizer, and uses a trained machine learning model to classify the message as either:
+
+- 🟢 **Ham** – legitimate SMS
+- 🔴 **Spam** – unwanted or potentially harmful SMS
+
+The trained model and TF-IDF vectorizer are stored in the `models/` directory and are used by the Streamlit application for real-time prediction.
+
+
+
+
 ## 🌐 Live Demo
 
 🔗 **[Launch SmartSMS Spam Detector](https://smartsms-spam-classifier.streamlit.app)**
