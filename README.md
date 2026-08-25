@@ -205,6 +205,29 @@ git clone https://github.com/SuhanyaBinali/SmartSMS-spam-classifier.git
 
 ```
 
+
+## 🔮 Future Improvements
+
+Possible improvements include:
+
+- Improve model performance with additional training data.
+- Compare multiple machine learning algorithms.
+- Add confidence/probability visualization.
+- Improve the user interface.
+- Add prediction history.
+- Continuously update the training dataset with newer spam patterns.
+
+
+
+## 👩‍💻 Author
+
+**Suhanya Binali Wanniarachchi**
+
+SmartSMS – AI-Powered SMS Spam Detectiongit add README.md
+
+
+
+
 ## 📄 License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
