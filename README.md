@@ -88,6 +88,26 @@ These metrics provide an overview of how well the model distinguishes between sp
 - **Recall** — How many actual spam messages were correctly detected.
 - **F1 Score** — Harmonic mean of precision and recall.
 
+
+## 🤖 Model Information
+
+SmartSMS uses a Natural Language Processing and machine learning pipeline to classify SMS messages as spam or legitimate.
+
+### Model Pipeline
+
+```text
+SMS Message
+     ↓
+Text Preprocessing
+     ↓
+TF-IDF Feature Extraction
+     ↓
+Linear SVM Classifier
+     ↓
+Spam / Legitimate Prediction
+```
+
+
 ## 🛠️ Technologies Used
 
 ### Programming Language
@@ -164,7 +184,11 @@ SmartSMS-spam-classifier/
 ```bash
 git clone https://github.com/SuhanyaBinali/SmartSMS-spam-classifier.git
 
+```
 
+## 📄 License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
 
 
