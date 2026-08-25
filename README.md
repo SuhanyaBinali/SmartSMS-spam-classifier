@@ -130,7 +130,7 @@ SmartSMS-spam-classifier/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/SmartSMS-spam-classifier.git
+git clone https://github.com/SuhanyaBinali/SmartSMS-spam-classifier.git
 
 
 
