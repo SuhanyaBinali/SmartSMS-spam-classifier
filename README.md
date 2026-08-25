@@ -7,6 +7,11 @@ The application uses **Natural Language Processing (NLP)** techniques to preproc
 Users can enter an SMS message through the Streamlit web interface and receive an instant classification result along with the model's decision score.
 
 
+## 🌐 Live Demo
+
+🔗 **[Launch SmartSMS Spam Detector](https://smartsms-spam-classifier.streamlit.app)**
+
+
 ## ✨ Features
 
 - 📩 **SMS Message Classification** — Classifies messages as spam or legitimate (ham).
