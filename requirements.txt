@@ -1,0 +1,8 @@
+## These are the main requirements for the SmartSMS app .
+## Main packages that are used.
+
+streamlit==1.62.0       # for web interface
+pandas==3.0.5           # for dataset handling
+numpy==2.5.2            # for numerical operations
+scikit-learn==1.9.0     # for TF-IDF + ML model
+nltk==3.10.3            # for text preprocessing
