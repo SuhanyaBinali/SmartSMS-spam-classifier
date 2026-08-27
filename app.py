@@ -83,7 +83,7 @@ if st.button(
 
         st.divider()
 
-        st.subheader("🔎 Analysis Result")
+        st.subheader("Analysis Result")
 
 
 
