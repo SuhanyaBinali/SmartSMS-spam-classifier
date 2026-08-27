@@ -26,51 +26,39 @@ The trained model and TF-IDF vectorizer are stored in the `models/` directory an
 🔗 **[Launch SmartSMS Spam Detector](https://smartsms-spam-classifier.streamlit.app)**
 
 
+
 ## ✨ Features
 
-- 📩 **SMS Message Classification** — Classifies messages as spam or legitimate (ham).
-- 🤖 **Machine Learning Prediction** — Uses a trained Linear SVM model for classification.
-- 🧹 **Text Preprocessing** — Cleans and prepares SMS messages before prediction.
-- 📊 **TF-IDF Feature Extraction** — Converts text messages into numerical features for the machine learning model.
-- 📈 **Model Decision Score** — Displays the Linear SVM decision score to provide additional insight into the prediction.
-- 🔢 **Message Statistics** — Shows the number of characters and words in the entered message.
-- ⚡ **Interactive Web Interface** — Provides a simple Streamlit interface for real-time message analysis.
-- 📱 **Example Messages** — Provides sample spam and legitimate messages for quick testing.
-- 📊 **Model Performance Metrics** — Displays the model's accuracy, precision, recall, and F1 score.
+- 🛡️ **SMS Spam Detection** — Classifies an SMS message as **Spam** or **Legitimate** using machine learning.
+- 📝 **Message Analysis** — Provides an interactive interface where users can enter an SMS message for analysis.
+- 🔢 **Message Statistics** — Displays the number of **characters** and **words** in the entered message.
+- 🧹 **Text Processing** — Cleans and prepares the SMS message before machine learning analysis.
+- 📊 **TF-IDF Feature Extraction** — Converts the processed text into numerical features using TF-IDF.
+- 🤖 **Linear SVM Classification** — Uses a Linear SVM model to analyze the extracted features and classify the message.
+- 🧠 **Model Information** — Provides information about the machine learning approach used by SmartSMS.
+- ⚡ **Interactive Streamlit Interface** — Provides a simple web interface for real-time SMS spam analysis.
+
 
 ## 🖥️ Application Interface
 
 SmartSMS provides an interactive Streamlit web interface for entering SMS messages, testing example messages, viewing model performance, and receiving spam or legitimate (ham) predictions.
 
-### 🏠 SmartSMS Home Interface
 
-The main interface introduces the SmartSMS application and provides an input area where users can enter an SMS message and analyze it.
+### Home Page
 
-![SmartSMS Home Interface](screenshots/Interface%201.png)
+![SmartSMS Home Page](screenshots/HomePage.png)
 
-### 🧪 Example Messages and Model Performance
+### Main Interface
 
-The interface provides example messages for quick testing and displays the performance metrics of the trained machine learning model.
+![SmartSMS Interface](screenshots/Interface.png)
 
-![Example Messages and Model Performance](screenshots/Interface%202.png)
+### Legitimate Message Prediction
 
-### ⚙️ How SmartSMS Works
+![Legitimate Message Prediction](screenshots/Legitimate_Msg_Prediction.png)
 
-This section explains the SmartSMS workflow and shows the remaining part of the application's interface.
+### Spam Message Detection
 
-![How SmartSMS Works](screenshots/Interface%203.png)
-
-### 🚨 Spam Message Detection
-
-When a spam message is analyzed, SmartSMS displays the prediction result along with the model's decision score.
-
-![Spam Message Detection](screenshots/Interface%204.png)
-
-### ✅ Legitimate Message Detection
-
-When a legitimate (ham) message is analyzed, SmartSMS displays the legitimate-message prediction together with the model's decision score.
-
-![Legitimate Message Detection](screenshots/Interface%205.png)
+![Spam Message Detection](screenshots/Spam_Msg_Detection.png)
 
 
 ### 🧠 Machine Learning Approach
