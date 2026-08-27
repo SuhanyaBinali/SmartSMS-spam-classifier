@@ -5,9 +5,7 @@ import streamlit as st
 from src.predict import predict_spam_details
 
 
-# ==========================================
-# Page Configuration
-# ==========================================
+
 
 st.set_page_config(
     page_title="SmartSMS - Spam Detector",
@@ -16,11 +14,9 @@ st.set_page_config(
 )
 
 
-# ==========================================
-# Header
-# ==========================================
 
-st.title("🛡️ SmartSMS")
+
+st.title("SmartSMS")
 
 st.subheader("AI-Powered SMS Spam Detection")
 
@@ -34,11 +30,9 @@ st.caption("NLP  •  TF-IDF  •  Linear SVM")
 st.divider()
 
 
-# ==========================================
-# Message Analysis Section
-# ==========================================
 
-st.subheader("📩 Analyze Your Message")
+
+st.subheader("Analyze Your Message")
 
 message = st.text_area(
     "Enter an SMS message",
@@ -47,9 +41,7 @@ message = st.text_area(
 )
 
 
-# ==========================================
-# Message Statistics
-# ==========================================
+
 
 character_count = len(message)
 word_count = len(message.split())
@@ -69,12 +61,10 @@ with col2:
     )
 
 
-# ==========================================
-# Analyze Button
-# ==========================================
+
 
 if st.button(
-    "🔍 Analyze Message",
+    "Analyze Message",
     use_container_width=True
 ):
 
@@ -96,9 +86,6 @@ if st.button(
         st.subheader("🔎 Analysis Result")
 
 
-        # ==================================
-        # Spam Result
-        # ==================================
 
         if prediction == "spam":
 
@@ -127,9 +114,7 @@ if st.button(
             )
 
 
-        # ==================================
-        # Ham Result
-        # ==================================
+
 
         else:
 
@@ -153,38 +138,6 @@ if st.button(
             )
 
 
-# ==========================================
-# Example Messages
-# ==========================================
-
-st.divider()
-
-st.subheader("💡 Try an Example")
-
-st.write(
-    "Copy one of these messages into the text box above "
-    "and analyze it."
-)
-
-example_col1, example_col2 = st.columns(2)
-
-with example_col1:
-
-    st.markdown("**🚨 Example Spam**")
-
-    st.code(
-        "Congratulations! You have won a free prize! "
-        "Click here to claim your reward now."
-    )
-
-
-with example_col2:
-
-    st.markdown("**✅ Example Legitimate**")
-
-    st.code(
-        "Hey, are we still meeting tomorrow at 10?"
-    )
 
 
 # ==========================================
